@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery Plus</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header and navbar  -->
+
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <img
+            src="./Image-gallery-plus/images/logo.png"
+            class="logo"
+            alt="Logo"
+          />
+          <span class="fs-5">The art of shade</span>
+        </a>
+
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </header>
+
+      <!-- The carousel -->
+
+      <main>
+        <div
+          id="myCarousel"
+          class="carousel slide mb-6"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="bd-placeholder-img"
+                width="100%"
+                height="50%"
+                src="./Image-gallery-plus/images/carousel-1.jpg"
+                alt=""
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="bd-placeholder-img"
+                width="100%"
+                height="100%"
+                src="./Image-gallery-plus/images/carousel-2.jpg"
+                alt=""
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="bd-placeholder-img"
+                width="100%"
+                src="./Image-gallery-plus/images/carousel-3.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="introduction">
+          <p>
+            Welcome to <span class="title">The art of shade</span>, your
+            ultimate destination for exquisite pencil art. Specializing in
+            charcoal, graphite, and traditional pencil mediums, we bring your
+            visions to life with stunning detail and artistry. Whether you're
+            looking for a timeless portrait, a serene landscape, or any other
+            artistic creation, our skilled artists are dedicated to delivering
+            breathtaking pieces that captivate and inspire. Explore our gallery
+            and discover the beauty and versatility of pencil art today.
+          </p>
+        </div>
+
+        <!-- Techniques -->
+
+        <div class="headers-container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img
+                class="bd-placeholder-img rounded-circle"
+                width="300"
+                height="300"
+                src="./Image-gallery-plus/images/headings-3.jpg"
+                alt=""
+              />
+
+              <h2 class="fw-normal p-4">Graphite</h2>
+              <ul>
+                <li>
+                  Graphite Sticks: For broad strokes and covering large areas
+                  quickly.
+                </li>
+                <li>
+                  Pencil Techniques: Similar to pencil drawing, using hatching,
+                  cross-hatching, and blending.
+                </li>
+                <li>
+                  Powdered Graphite: For smooth, even shading over large areas
+                  using a brush or cloth.
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <img
+                class="bd-placeholder-img rounded-circle"
+                width="300"
+                height="300"
+                src="./Image-gallery-plus/images/headings-2.jpg"
+                alt=""
+              />
+              <h2 class="fw-normal p-4">Pencil</h2>
+              <ul>
+                <li>
+                  Hatching and Cross-Hatching: Creating tonal or shading effects
+                  with closely spaced parallel lines or intersecting lines.
+                </li>
+                <li>
+                  Blending: Using tools like blending stumps or tissues to
+                  smooth out graphite and create gradients.
+                </li>
+                <li>
+                  Stippling: Creating texture and shading with small dots.
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <img
+                class="bd-placeholder-img rounded-circle"
+                width="300"
+                height="300"
+                src="./Image-gallery-plus/images/headings-1.avif"
+                alt=""
+              />
+              <h2 class="fw-normal p-4">Charcoal</h2>
+              <ul>
+                <li>
+                  Vine Charcoal: For light sketches and outlines, easily
+                  erasable.
+                </li>
+                <li>
+                  Compressed Charcoal: For darker lines and more intense
+                  shading.
+                </li>
+                <li>
+                  Lifting: Using an eraser to lift charcoal from the paper,
+                  creating highlights and lighter areas.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featurette -->
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Lion Face.
+              <span class="text-body-secondary">STRENGTH.</span>
+            </h2>
+            <p class="lead">
+              This striking graphite drawing of a lion's face and head captures
+              the majestic essence of the king of the jungle. The artist's
+              skillful use of shading and fine lines brings to life the
+              intricate details of the lion's mane and the intense, piercing
+              gaze of its eyes. Each whisker and fur strand is meticulously
+              rendered, showcasing the power and grace of this magnificent
+              creature. The strong contrasts and lifelike textures convey a
+              sense of raw strength and regal presence.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded"
+              width="500"
+              height="500"
+              src="./Image-gallery-plus/images/feature-3.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-lg-2 order-md-1">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Portrait of an old Man.
+              <span class="text-body-secondary">Africa.</span>
+            </h2>
+            <p class="lead">
+              In this evocative charcoal portrait of an old African man, the
+              artist has masterfully captured the depth and character of the
+              subject's face. The rich, dark tones of the charcoal bring out the
+              intricate details of the man's weathered skin, the wisdom in his
+              eyes, and the strength of his features. The subtle play of light
+              and shadow highlights the contours and textures, creating a
+              powerful and soulful representation. This artwork pays homage to
+              the dignity and resilience of the man, making it a poignant and
+              memorable piece.
+            </p>
+          </div>
+          <div class="col-md-5 order-lg-1 order-md-2">
+            <img
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded"
+              width="500"
+              height="500"
+              src="./Image-gallery-plus/images/feature-1.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Portrait of an old Woman .
+              <span class="text-body-secondary">Indian.</span>
+            </h2>
+            <p class="lead">
+              This beautiful pencil drawing of an old Indian woman showcases the
+              grace and serenity of the subject. The artist's delicate and
+              precise use of the pencil medium brings out the fine lines and
+              wrinkles that tell the story of a life well-lived. The intricate
+              details of her traditional attire and the gentle expression in her
+              eyes are rendered with exquisite care, capturing her inner
+              strength and quiet dignity. The soft shading and careful attention
+              to texture make this portrait a touching and intimate work of art
+              that resonates with viewers.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded"
+              width="500"
+              height="500"
+              src="./Image-gallery-plus/images/feature-2.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer -->
+
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <p class="col-md-4 mb-0 text-body-secondary">
+          &copy; 2024 Designed by Jade Harris
+        </p>
+
+        <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap" />
+          </svg>
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Contact</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script src="./Image-gallery-plus/script.js"></script>
+  </body>
+</html>
